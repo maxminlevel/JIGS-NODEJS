@@ -1,0 +1,142 @@
+<!--contain-->
+<div class="container">
+  <div class="page-header">
+    <form class="form-horizontal" method="post" action="">
+      <fieldset>
+        <!-- Form Name -->
+        <legend class="text-center">
+          <h1>
+            Jars Saving
+          </h1>
+        </legend>
+        <!-- Text input-->
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="salary">
+            Your salary
+          </label>
+          <div class="col-md-4">
+            <input
+              id="salary"
+              name="salary"
+              type="number"
+              min="0"
+              placeholder={{salary}}
+              class="form-control input-md"
+              required=""
+            />
+          </div>
+        </div>
+        <!-- Button -->
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="submit"></label>
+          <div class="col-md-4">
+            <input type="submit" value="Calculate" class="btn btn-primary" />
+          </div>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+  <div class="container text-center">
+    <div class="row stylish-panel">
+      <div class="col-md-4">
+        <img
+          src="/images/task2/nec.jpeg"
+          alt="Texto Alternativo"
+          class="img-circle img-thumbnail"
+        />
+        <h3>
+          Necessity account
+          <small>
+            55%
+          </small>
+        </h3>
+        <h2 class="jars">
+          {{jars.[0]}}
+        </h2>
+      </div>
+      <div class="col-md-4">
+        <img
+          src="/images/task2/ffa.jpeg"
+          alt="Texto Alternativo"
+          class="img-circle img-thumbnail"
+        />
+        <h3>
+          Financial freedom account
+          <small>
+            10%
+          </small>
+        </h3>
+        <h2 class="jars">
+          {{jars.[1]}}
+        </h2>
+      </div>
+      <div class="col-md-4">
+        <img
+          src="/images/task2/give.jpeg"
+          alt="Texto Alternativo"
+          class="img-circle img-thumbnail"
+        />
+        <h3>
+          Give Account
+          <small>
+            5%
+          </small>
+        </h3>
+        <h2 class="jars">
+          {{jars.[2]}}
+        </h2>
+      </div>
+    </div>
+    <div class="row stylish-panel">
+      <div class="col-md-4">
+        <img
+          src="/images/task2/edu.jpeg"
+          alt="Texto Alternativo"
+          class="img-circle img-thumbnail"
+        />
+        <h3>
+          Education account
+          <small>
+            10%
+          </small>
+        </h3>
+        <h2 class="jars">
+          {{jars.[3]}}
+        </h2>
+      </div>
+      <div class="col-md-4">
+        <img
+          src="/images/task2/saving.jpeg"
+          alt="Texto Alternativo"
+          class="img-circle img-thumbnail"
+        />
+        <h3>
+          Long-term saving for spending account
+          <small>
+            10%
+          </small>
+        </h3>
+        <h2 class="jars">
+          {{jars.[4]}}
+        </h2>
+      </div>
+      <div class="col-md-4">
+        <img
+          src="/images/task2/play.jpeg"
+          alt="Texto Alternativo"
+          class="img-circle img-thumbnail"
+        />
+        <h3>
+          Play account
+          <small>
+            10%
+          </small>
+        </h3>
+        <h2 class="jars">
+          {{jars.[5]}}
+        </h2>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /contain -->
