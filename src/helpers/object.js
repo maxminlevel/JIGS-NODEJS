@@ -16,5 +16,4 @@ const assignObjOnce = (obj, src) => {
 module.exports = {
   assignValueOnce,
   assignObjOnce,
-  sort,
 }

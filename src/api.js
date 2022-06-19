@@ -53,7 +53,7 @@ const initMidlewareAft = (ctx) => {
     }
 
     // default to plain-text. send()
-    res.type('txt').send('Not found')
+    res.type('txt').send('Router not found')
   })
 }
 
